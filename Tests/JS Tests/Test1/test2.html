@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/CSSStyles.css" >
+    <title>Test 02</title>
+</head>
+<body>
+<div class="container">    
+    <div class="section group">
+        <!-- Column 1 -->
+        <div class="col span_1_of_2 leftCol">            
+        <div class="wrapper">		
+		<!-- Form -->
+		<form id="currency-form" action="#" method="post">
+			<h3>Order your currency</h3>
+            <br>
+            <table class="table">
+            <tr><td>I want to buy&nbsp;&nbsp;</td><td><input type="radio" name="radio" checked tabindex="1">Cash</input></td></tr>
+            <tr><td></td><td><input type="radio" name="radio">Travellers Cheques</input></td></tr>
+            </table>
+            <br/>
+			<div>
+				<label>
+					<span>Choose your currency </span>		
+				</label>
+                <select name="currencies" tabindex="2">
+                  <option value="volvo">GBP</option>
+                  <option value="saab">USD</option>
+                </select>
+			</div>
+            <br/>
+			<div>
+				<label>
+					<span>How much?					
+				</label>
+                    <input placeholder="Please enter amount" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' tabindex="2" required></span>
+			</div>	
+        <br/>
+			<div class="divButton">
+				<button name="submit" type="submit" id="currency-submit">BUY NOW</button>
+			</div>
+		</form>
+		<!-- /Form -->		
+		</div>
+	   </div>     
+        <!-- Column 2 -->
+        <div class="col span_1_of_2">
+            <h1>Buy online of by phone</h1>
+            <br/>
+            <p>When it comes to travle money, we have a range of option to make it easier for 
+            </p><br/>
+            <section>
+            <h2><img src="images/right_arrow.png" id="arrow" /> Click & Collect</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </section>
+            <br/>
+            <section class="section">
+            <h2><img src="images/right_arrow.png" id="arrow" />Home delivery</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </section>
+            <br/>
+            <section>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</section>
+        </div>
+    </div>
+</div>
+</body>
+</html>

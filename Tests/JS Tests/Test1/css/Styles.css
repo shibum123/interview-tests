@@ -1,0 +1,40 @@
+/* 
+    Author : Shibu Manoharan
+    Date   : 10/09/15
+*/
+
+.container{
+    max-width: 1200px;
+    padding: 1 1 1 1;
+    margin: 0 auto;
+    text-align: left;
+    border-style: solid;
+    border-color: antiquewhite;
+    background:#3C598E;
+    color: aliceblue;
+}
+
+.divButton{
+    width: 100%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.animal {
+    width: 100%;
+    height: 50px;
+}
+
+.zebra {
+    width: 10em;
+    height: 5em;
+}
+
+.aardvark {
+    width: 100px;
+}
+
+.cow {
+    height: 50%;
+}
+

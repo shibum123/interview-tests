@@ -1,0 +1,213 @@
+/* 
+    Author : Shibu Manoharan
+    Date   : 10/09/15
+*/
+
+.leftCol{
+    background-color:#3C598E;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.table 
+{
+    width: 100%;
+    margin: 0 auto; 
+    text-align: left;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 1 1 1 1;
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    border-color: antiquewhite
+}
+
+p{
+    text-align: left;
+    padding: 0 28px;
+}
+
+.section{
+    text-align: left;
+}
+
+.wrapper {
+	max-width:500px;
+	width:95%;
+	margin:0 auto;
+	position:relative;
+    background:#3C598E;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 1px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+body {
+	font:400 12px/1.625 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#444;
+	background:#FFFFFF;
+}
+
+#currency-form input[type="text"],
+#currency-form button[type="submit"] {
+	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#currency-form {
+	text-shadow:0 1px 0 #FFF;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	background:#3C598E;
+	padding:25px;
+}
+
+#currency-form h3 {
+	color:#FFFFFF;
+	display:block;
+	font-size:28px;
+}
+
+h1 {
+	padding: 0 28px;
+	display:block;
+	font-size:22px;
+    text-align: left;
+}
+
+h2 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:20px;
+    text-align: left;
+}
+
+/* IMAGE */
+#arrow {
+    left: 129px;
+    width: 20px;
+    height: 20px;
+    background: url('right_arrow.png') -91px 0;
+    align: left;
+    vertical-align: middle;
+}
+
+#currency-form label span {
+	cursor:pointer;
+	display:block;
+	margin:5px 0;
+	font-weight: bold;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+}
+
+#currency-form select,
+#currency-form input[type="text"]
+{
+	width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+    text-align: left;
+}
+
+.divButton{
+    width: 100%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#currency-form button[type="submit"] {
+	cursor:pointer;
+	width:50;
+	border:none;
+	background:#FF0000;
+	color:#FFF;
+	margin:auto;
+	padding:10px;
+	border-radius:5px;
+}
+
+#currency-form button[type="submit"]:hover {
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#currency-form button[type="submit"]:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+
